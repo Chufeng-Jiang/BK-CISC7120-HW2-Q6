@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+  echo "Usage: ./exec <test_file>"
+  exit 1
+fi
+
+TEST_FILE=$1
+
+
+if [ ! -f "$TEST_FILE" ]; then
+  echo "Error: File '$TEST_FILE' not found."
+  exit 1
+fi
+
+
+java -cp bin/src Main "$TEST_FILE"
+
