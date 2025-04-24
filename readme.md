@@ -1,3 +1,11 @@
+# Instructions
+
+Use the following commands at the project root
+
+> make
+>
+> ./exec t1
+
 #  Project 
 
 1.  The following defines a simple language, in which a program  consists of assignments and each variable is assumed to be of the  integer type. For the sake of simplicity, only operators that give  integer values are included. <br>
